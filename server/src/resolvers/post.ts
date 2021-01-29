@@ -1,5 +1,4 @@
-import { Post } from "./../entities/Post";
-import "reflect-metadata";
+import { Post } from "../entities/Post";
 import { Resolver, Query, Ctx, Arg, Int, Mutation } from "type-graphql";
 import { MyContext } from "src/types/types";
 
